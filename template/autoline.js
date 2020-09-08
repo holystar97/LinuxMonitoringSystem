@@ -1,6 +1,6 @@
 var samples =20;
-var speed = 500;
-let timeout = samples * speed;
+var speed = 1000;
+let timeout= samples * speed;
 var values = [];
 var values2=[];
 var values3=[];
@@ -38,8 +38,8 @@ function startConnect() {
     // host = document.getElementById("host").value;
     console.log("connect");
    // host=getParameterByName('ip_address');
-host="54.180.90.198";
-//host="192.168.0.29"
+    //host="54.180.90.198";
+host="192.168.2.3"
 
 
     // port = document.getElementById("port").value;
@@ -125,7 +125,7 @@ function initialize() {
         options: {
             responsive: true,
             animation: {
-                duration: speed *0.5,
+                duration: speed *1.0,
                 easing: 'linear'
             },
             legend: false,
@@ -165,7 +165,7 @@ function initialize() {
         options: {
             responsive: true,
             animation: {
-                duration: speed * 0.5,
+                duration: speed * 1.0,
                 easing: 'linear'
             },
             legend: false,
@@ -202,7 +202,6 @@ function rescale() {
     values.splice.apply(values, padding);
     values2.splice.apply(values2,padding);
     values3.splice.apply(values3,padding);
-
     scale++;
 }
 
