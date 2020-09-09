@@ -168,6 +168,11 @@ var config = {
                 }
             }],
             yAxes: [{
+                ticks: {
+                    max:100,
+                    min:0,
+                    stepSize:10
+                },
                 scaleLabel: {
                     display: true,
                     labelString: 'value'
@@ -221,6 +226,11 @@ var memory_config = {
                 }
             }],
             yAxes: [{
+                ticks: {
+                    max:100,
+                    min:0,
+                    stepSize:10
+                },
                 scaleLabel: {
                     display: true,
                     labelString: 'value'
@@ -239,6 +249,7 @@ var memory_config = {
 };
 
 window.onload = function() {
+
     var ctx = document.getElementById('myChart').getContext('2d');
     window.myChart = new Chart(ctx, config);
     var ctx2 = document.getElementById('myChart2').getContext('2d');

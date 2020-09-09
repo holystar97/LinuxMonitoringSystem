@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dcf7d92-22ee-4327-acb1-55f49a5a53c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/template/line.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/line_chart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/autoline.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/autoline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/charts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/line.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/line.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +63,9 @@
     <configuration name="charts.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/monitoringSystem/template/charts.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="elements.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/monitoringSystem/template/elements.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/monitoringSystem/template/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -75,6 +76,7 @@
       <list>
         <item itemvalue="JavaScript Debug.charts.html" />
         <item itemvalue="JavaScript Debug.line_chart.html" />
+        <item itemvalue="JavaScript Debug.elements.html" />
         <item itemvalue="JavaScript Debug.chart.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
@@ -91,7 +93,8 @@
       <workItem from="1599457787821" duration="3598000" />
       <workItem from="1599481055914" duration="3290000" />
       <workItem from="1599485215324" duration="584000" />
-      <workItem from="1599566210733" duration="5259000" />
+      <workItem from="1599566210733" duration="6881000" />
+      <workItem from="1599616201962" duration="327000" />
     </task>
     <servers />
   </component>
@@ -108,5 +111,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
